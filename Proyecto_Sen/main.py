@@ -7,7 +7,9 @@ import os
 from dotenv import load_dotenv
 from contextlib import asynccontextmanager
 
+#python -m venv venv
 #venv\Scripts\activate
+#pip install fastapi uvicorn asyncpg python-dotenv
 #uvicorn main:app --reload
 
 # Cargar variables de entorno
